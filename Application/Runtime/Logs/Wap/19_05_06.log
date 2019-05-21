@@ -1,0 +1,1303 @@
+[ 2019-05-06T02:24:18+08:00 ] 101.71.232.129 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T02:24:18+08:00 ] 101.71.232.129 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2019-05-06T03:36:53+08:00 ] 36.110.199.161 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T03:36:53+08:00 ] 36.110.199.161 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-05-06T04:29:33+08:00 ] 111.30.33.149 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T04:29:38+08:00 ] 111.30.33.149 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T05:48:14+08:00 ] 139.224.116.230 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T05:48:14+08:00 ] 139.224.116.230 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+
+[ 2019-05-06T05:52:45+08:00 ] 101.132.177.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T05:52:45+08:00 ] 101.132.177.14 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2019-05-06T07:06:56+08:00 ] 220.181.108.86 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T07:06:56+08:00 ] 220.181.108.182 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-05-06T07:14:33+08:00 ] 116.2.77.52 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T07:14:33+08:00 ] 116.2.77.52 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+
+[ 2019-05-06T09:25:15+08:00 ] 47.92.132.229 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T09:25:15+08:00 ] 47.92.132.229 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2019-05-06T09:33:14+08:00 ] 101.132.131.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T09:33:14+08:00 ] 101.132.131.7 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-05-06T10:33:42+08:00 ] 140.207.54.80 /index.php?m=Wap&c=WechatAuto&a=valid&signature=738e485883137d38892dabf216cf34d07eeccd0f&timestamp=1557110022&nonce=2063487951&openid=oPnp0xKLC-3hePRoxPSv9w_3UB64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2019-05-06T10:34:22+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=Success&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:34:22+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+
+[ 2019-05-06T10:34:23+08:00 ] 175.146.67.158 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=011hgLjg0NDeKv1Crigg09TMjg0hgLjN&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xKLC-3hePRoxPSv9w_3UB64' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2019-05-06T10:34:35+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=person&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:34:35+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+
+[ 2019-05-06T10:34:36+08:00 ] 175.146.67.158 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=0811Ds8D0gUiSj2lxD7D0KGy8D01Ds8L&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xKLC-3hePRoxPSv9w_3UB64' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-05-06T10:34:38+08:00 ] 175.146.67.158 /index.php?a=getCodeUserinfo&c=Wechat&m=Wap&code=021evzs81mFR7O1oxAp817ors81evzsv&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xKLC-3hePRoxPSv9w_3UB64' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: stdClass::$unionid /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 152 行.
+SQL: INSERT INTO `qun_user` (`user_openid`,`user_headimgurl`,`user_unionid`,`user_nickname`,`user_createtime`,`user_sex`,`user_lasttime`,`user_ip`) VALUES ('oPnp0xKLC-3hePRoxPSv9w_3UB64','http://thirdwx.qlogo.cn/mmopen/vi_32/qmLbFxxNnibicpmDwia9LNGOibsCV2pWVjRBG8GrmQpp0E9FuG0Zcic33FoMFicuYGbx5w6ak29DQKdRHFk4l2UAc6Zg/132',NULL,'苗总【燃脂豆新版上市】','2019-05-06 10:34:38','2','2019-05-06 10:34:38','175.146.67.158') [ RunTime:0.0011s ]
+
+[ 2019-05-06T10:34:39+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=person&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 583 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/3ce41dfc6ea6bc5ae4ac1b7b8bb03df2.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2019-05-06T10:34:54+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=person&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 583 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/3ce41dfc6ea6bc5ae4ac1b7b8bb03df2.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-05-06T10:34:59+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=person&id=1&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110098
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 583 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2019-05-06T10:35:21+08:00 ] 101.91.60.106 /index.php?m=Wap&c=Index&a=Success&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:35:22+08:00 ] 101.89.239.238 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+
+[ 2019-05-06T10:35:35+08:00 ] 61.151.178.217 /index.php?m=Wap&c=Index&a=person&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:35:59+08:00 ] 61.151.178.197 /index.php?m=Wap&c=Index&a=person&id=1&sharer_username=gh_d65115c9f50d&scene=126&clicktime=1557110098
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:36:38+08:00 ] 140.207.54.79 /index.php?m=Wap&c=WechatAuto&a=valid&signature=35d89757f51f6c3f586c98bb98259b8dc5c2c561&timestamp=1557110197&nonce=882504547&openid=oPnp0xKLC-3hePRoxPSv9w_3UB64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T10:36:38+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-05-06T10:36:41+08:00 ] 140.207.54.80 /index.php?m=Wap&c=WechatAuto&a=valid&signature=3df4bbe6c866c36713f45b43425a5c76c449d6eb&timestamp=1557110201&nonce=31315502&openid=oPnp0xKLC-3hePRoxPSv9w_3UB64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T10:36:42+08:00 ] 175.146.67.158 /index.php?m=Wap&c=Index&a=course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-05-06T10:37:37+08:00 ] 58.247.206.156 /index.php?m=Wap&c=Index&a=course
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:39:29+08:00 ] 117.30.138.189 /index.php?m=Wap&c=Index&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:39:29+08:00 ] 117.30.138.189 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-05-06T10:39:29+08:00 ] 117.30.138.189 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=081sBwHz0p9NUe1GiXHz0optHz0sBwH5&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xBEOhoKu5JXhj37UMTe52Ig' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `qun_user` SET `user_lasttime`='2019-05-06 10:39:29',`user_ip`='117.30.138.189' WHERE `user_id` = 114 [ RunTime:0.0011s ]
+
+[ 2019-05-06T10:39:29+08:00 ] 117.30.138.189 /index.php?m=Wap&c=Index&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 2  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: vip /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/72ce0aa59ea099606b7d8fd91a906396.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2019-05-06T10:39:32+08:00 ] 117.30.138.189 /index.php?m=Wap&c=Index&a=order1&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_type` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_type` WHERE `is_show` = 1 AND `type_state` = 1  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2019-05-06T10:40:29+08:00 ] 101.91.60.106 /index.php?a=getCodeBase&c=Wechat&m=Wap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2019-05-06T10:40:33+08:00 ] 61.151.178.177 /index.php?m=Wap&c=Index&a=order1&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:41:52+08:00 ] 140.207.54.77 /index.php?m=Wap&c=WechatAuto&a=valid&signature=ebcda1efabbefade21db21247c010b82d1aade4a&timestamp=1557110512&nonce=1466839677&openid=oPnp0xKYKw8N7o2mmx-rULbRkQQ4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T10:41:53+08:00 ] 124.64.16.225 /index.php?m=Wap&c=Index&a=index&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:41:53+08:00 ] 124.64.16.225 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-05-06T10:41:54+08:00 ] 124.64.16.225 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=001ZVvpY1wLrA01xw4sY1vXypY1ZVvpG&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xKYKw8N7o2mmx-rULbRkQQ4' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2019-05-06T10:41:55+08:00 ] 124.64.16.225 /index.php?a=getCodeUserinfo&c=Wechat&m=Wap&code=001RhgKg25kvxI0m8iKg2XreKg2RhgKa&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xKYKw8N7o2mmx-rULbRkQQ4' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined property: stdClass::$unionid /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 152 行.
+SQL: INSERT INTO `qun_user` (`user_openid`,`user_headimgurl`,`user_unionid`,`user_nickname`,`user_createtime`,`user_sex`,`user_lasttime`,`user_ip`) VALUES ('oPnp0xKYKw8N7o2mmx-rULbRkQQ4','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83erd8wNEHhQTvia1BR3XNfNlpGCI2Tbz8vqFbFiab3ZUL4tO6JCvQhKBhkpQg8hxU8Y2z2huh7wthmog/132',NULL,'雨和','2019-05-06 10:41:55','2','2019-05-06 10:41:55','124.64.16.225') [ RunTime:0.0011s ]
+
+[ 2019-05-06T10:41:55+08:00 ] 124.64.16.225 /index.php?m=Wap&c=Index&a=index&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 2  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: vip /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/72ce0aa59ea099606b7d8fd91a906396.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-05-06T10:41:56+08:00 ] 140.207.54.77 /index.php?m=Wap&c=WechatAuto&a=valid&signature=f57e434ad81bfc38519f91881153e13c6b0788aa&timestamp=1557110515&nonce=544685348&openid=oPnp0xKYKw8N7o2mmx-rULbRkQQ4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-05-06T10:42:52+08:00 ] 101.89.239.238 /index.php?m=Wap&c=Index&a=index&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T10:48:42+08:00 ] 140.207.54.78 /index.php?m=Wap&c=WechatAuto&a=valid&signature=3690d17cb40d7960e3826c999270f6c8b97f6df5&timestamp=1557110921&nonce=1749360997&openid=oPnp0xKYKw8N7o2mmx-rULbRkQQ4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T10:48:43+08:00 ] 124.64.16.225 /index.php?m=Wap&c=Index&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004800s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 584 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qun_package` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_package` WHERE `is_on` = 1 AND `package_state` = 1  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2019-05-06T10:49:41+08:00 ] 101.89.239.232 /index.php?m=Wap&c=Index&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T12:51:28+08:00 ] 61.158.149.210 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T12:51:28+08:00 ] 61.158.149.210 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+
+[ 2019-05-06T12:51:28+08:00 ] 61.158.149.210 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=081b64ni1lrayt0cndni1ReVmi1b64nB&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xDaAw-121W1Tv8ZNwdx3EFU' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `qun_user` SET `user_lasttime`='2019-05-06 12:51:28',`user_ip`='61.158.149.210' WHERE `user_id` = 409 [ RunTime:0.0010s ]
+
+[ 2019-05-06T12:51:29+08:00 ] 61.158.149.210 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 2  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: vip /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/72ce0aa59ea099606b7d8fd91a906396.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2019-05-06T12:52:23+08:00 ] 61.129.6.151 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T12:52:47+08:00 ] 61.151.178.163 /index.php?m=Wap&c=Index&a=index&user_id=409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T12:54:45+08:00 ] 1.192.218.252 /index.php?m=Wap&c=Index&a=index&user_id=409&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T12:54:45+08:00 ] 1.192.218.252 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-05-06T12:54:46+08:00 ] 1.192.218.252 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=0112hlyb1tuaPv09l6Ab1y9pyb12hlya&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xBA7aUMQjBSqRYYgXRvIJ88' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2019-05-06T12:54:48+08:00 ] 1.192.218.252 /index.php?a=getCodeUserinfo&c=Wechat&m=Wap&code=071SiiIx12xdF90t91Jx1CJnIx1SiiI5&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xBA7aUMQjBSqRYYgXRvIJ88' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: stdClass::$unionid /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 152 行.
+SQL: INSERT INTO `qun_user` (`user_openid`,`user_headimgurl`,`user_unionid`,`user_nickname`,`user_createtime`,`user_sex`,`user_lasttime`,`user_ip`) VALUES ('oPnp0xBA7aUMQjBSqRYYgXRvIJ88','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eptFKv1ibcmvPHTsc02b9sTtndlmoFxbRTu7l8vtghGuoy8K0FESHCZ6sQnZ9kkFVv3wLFxbG4vFVg/132',NULL,'深蓝','2019-05-06 12:54:48','2','2019-05-06 12:54:48','1.192.218.252') [ RunTime:0.0028s ]
+SQL: UPDATE `qun_user` SET `user_up`='409',`user_up_time`='2019-05-06 12:54:48' WHERE `user_id` = 585 [ RunTime:0.0012s ]
+
+[ 2019-05-06T12:54:48+08:00 ] 1.192.218.252 /index.php?m=Wap&c=Index&a=index&user_id=409&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 2  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: vip /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/72ce0aa59ea099606b7d8fd91a906396.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-05-06T12:56:49+08:00 ] 1.192.218.252 /index.php?m=Wap&c=Index&a=order1&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_type` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `qun_type` WHERE `is_show` = 1 AND `type_state` = 1  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-05-06T13:34:12+08:00 ] 106.14.168.238 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T13:34:12+08:00 ] 106.14.168.238 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+
+[ 2019-05-06T16:21:09+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T16:55:02+08:00 ] 101.132.106.40 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T16:55:02+08:00 ] 101.132.106.40 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-05-06T17:01:43+08:00 ] 175.184.167.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T17:37:35+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T17:48:24+08:00 ] 111.30.33.149 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T19:14:03+08:00 ] 106.14.189.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T19:14:03+08:00 ] 106.14.189.11 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-05-06T20:01:08+08:00 ] 140.207.54.80 /index.php?m=Wap&c=WechatAuto&a=valid&signature=a7fbbb5af3e4a7565bda687457ac0b80d32b7da4&timestamp=1557144067&nonce=1634315322&openid=oPnp0xOTYLjtm7ckOnyUo0HqfRns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T20:01:08+08:00 ] 112.17.236.152 /index.php?m=Wap&c=Index&a=person&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T20:01:09+08:00 ] 112.17.236.152 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2019-05-06T20:01:09+08:00 ] 112.17.236.152 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=021hsW361BU66T16ZC561p86461hsW3T&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xOTYLjtm7ckOnyUo0HqfRns' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2019-05-06T20:01:10+08:00 ] 112.17.236.152 /index.php?a=getCodeUserinfo&c=Wechat&m=Wap&code=071nbMLr0sqlWf1Q1jKr0uJPLr0nbMLu&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xOTYLjtm7ckOnyUo0HqfRns' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: stdClass::$unionid /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 152 行.
+SQL: INSERT INTO `qun_user` (`user_openid`,`user_headimgurl`,`user_unionid`,`user_nickname`,`user_createtime`,`user_sex`,`user_lasttime`,`user_ip`) VALUES ('oPnp0xOTYLjtm7ckOnyUo0HqfRns','http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIRZdpzwHiapQ0JxJpNf5tBZpPia17JE9NZhjJWJlRKl1cwibe3XeJHJDeNtOkxmETriaPicN1VLibnqXaQ/132',NULL,'玻璃人','2019-05-06 20:01:10','1','2019-05-06 20:01:10','112.17.236.152') [ RunTime:0.0012s ]
+
+[ 2019-05-06T20:01:10+08:00 ] 112.17.236.152 /index.php?m=Wap&c=Index&a=person&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 586 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2019-05-06T20:01:12+08:00 ] 140.207.54.79 /index.php?m=Wap&c=WechatAuto&a=valid&signature=8359b63783b2d4506c674160e1f06629eef423aa&timestamp=1557144072&nonce=1970661371&openid=oPnp0xOTYLjtm7ckOnyUo0HqfRns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-05-06T20:01:25+08:00 ] 140.207.54.80 /index.php?m=Wap&c=WechatAuto&a=valid&signature=8fd7675e57075047db34f909e9e4ca40b24d3aa4&timestamp=1557144084&nonce=1741138127&openid=oPnp0xOTYLjtm7ckOnyUo0HqfRns
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T20:01:25+08:00 ] 112.17.236.152 /index.php?m=Wap&c=Index&a=person&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 586 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2019-05-06T20:02:07+08:00 ] 101.89.19.149 /index.php?m=Wap&c=Index&a=person&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T20:22:03+08:00 ] 140.207.54.77 /index.php?m=Wap&c=WechatAuto&a=valid&signature=8b8edbf7e303947a64df576710598c77e3ea56f6&timestamp=1557145322&nonce=1602084567&openid=oPnp0xFCKuXoTC3RpH0f2w4bEmaY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T20:22:04+08:00 ] 117.30.138.156 /index.php?m=Wap&c=Index&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T20:22:04+08:00 ] 117.30.138.156 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+
+[ 2019-05-06T20:22:04+08:00 ] 117.30.138.156 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=061nkSMq1sWzrl0lVMOq1gz2Nq1nkSMa&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xFCKuXoTC3RpH0f2w4bEmaY' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `qun_user` SET `user_lasttime`='2019-05-06 20:22:04',`user_ip`='117.30.138.156' WHERE `user_id` = 113 [ RunTime:0.0010s ]
+
+[ 2019-05-06T20:22:04+08:00 ] 117.30.138.156 /index.php?m=Wap&c=Index&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 2  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: vip /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/72ce0aa59ea099606b7d8fd91a906396.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2019-05-06T20:22:09+08:00 ] 117.30.138.156 /index.php?m=Wap&c=Index&a=order1&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_type` WHERE `is_show` = 1 AND `type_state` = 1  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2019-05-06T23:05:24+08:00 ] 140.207.54.80 /index.php?m=Wap&c=WechatAuto&a=valid&signature=1e9a7da5d3a9e3fc3722e5136ad09804576fd40e&timestamp=1557155124&nonce=132924465&openid=oPnp0xBXqm1E2oVnS31QrGpY5uIs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+NOTIC: [8] Undefined variable: resultStr /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatAutoController.class.php 第 88 行.
+
+[ 2019-05-06T23:05:25+08:00 ] 117.136.61.57 /index.php?m=Wap&c=Index&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004687s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2019-05-06T23:05:25+08:00 ] 117.136.61.57 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-05-06T23:05:26+08:00 ] 117.136.61.57 /index.php?a=getCodeBase&c=Wechat&m=Wap&code=021cgeij2b1aCD0wkXhj2Q8bij2cgeiT&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xBXqm1E2oVnS31QrGpY5uIs' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-05-06T23:05:28+08:00 ] 117.136.61.57 /index.php?a=getCodeUserinfo&c=Wechat&m=Wap&code=011IFgBI1qJxm100fuBI1LS1BI1IFgB3&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_openid` = 'oPnp0xBXqm1E2oVnS31QrGpY5uIs' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined property: stdClass::$unionid /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 152 行.
+SQL: INSERT INTO `qun_user` (`user_openid`,`user_headimgurl`,`user_unionid`,`user_nickname`,`user_createtime`,`user_sex`,`user_lasttime`,`user_ip`) VALUES ('oPnp0xBXqm1E2oVnS31QrGpY5uIs','http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoDcQOWXVRVwpOcu4TYjsgJtibbtjw5qVwCsl6wEZ3HSGo7DgwhHNoXnNtpGfibtiaWFibQ0FPV0erz9g/132',NULL,'北斗星美术车老师15838063683','2019-05-06 23:05:28','2','2019-05-06 23:05:28','117.136.61.57') [ RunTime:0.0011s ]
+
+[ 2019-05-06T23:05:29+08:00 ] 117.136.61.57 /index.php?m=Wap&c=Index&a=index&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+NOTIC: [8] Trying to get property of non-object /data/home/hyu4950590001/htdocs/Application/Wap/Controller/WechatController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 AND `type` = 2  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: vip /data/home/hyu4950590001/htdocs/Application/Runtime/Cache/Wap/72ce0aa59ea099606b7d8fd91a906396.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-05-06T23:05:30+08:00 ] 140.207.54.80 /index.php?m=Wap&c=WechatAuto&a=valid&signature=ac5f960b6104751936c13253873642a2e6b554ae&timestamp=1557155130&nonce=1970909739&openid=oPnp0xBXqm1E2oVnS31QrGpY5uIs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-05-06T23:05:34+08:00 ] 117.136.61.57 /index.php?m=Wap&c=Index&a=order1&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+SQL: SHOW COLUMNS FROM `qun_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_type` WHERE `is_show` = 1 AND `type_state` = 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2019-05-06T23:06:35+08:00 ] 61.129.6.227 /index.php?m=Wap&c=Index&a=order1&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+

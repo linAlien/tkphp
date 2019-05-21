@@ -1,0 +1,698 @@
+[ 2019-01-15T09:01:42+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0055s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0084s ]
+
+[ 2019-01-15T09:01:43+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0088s ]
+
+[ 2019-01-15T09:01:44+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=abuyaoa003&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fabuyaoa003.jpg&kefu_name=%E5%8A%A9%E6%89%8B85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'abuyaoa003' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='abuyaoa003',`kefu_name`='助手85',`kefu_qrcode`='http://47.106.174.74/qrcode/abuyaoa003.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'abuyaoa003' [ RunTime:0.0082s ]
+
+[ 2019-01-15T09:01:44+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0072s ]
+
+[ 2019-01-15T09:01:46+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun005&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_7wqfwvu628cz22.jpg&kefu_name=%E5%8A%A9%E6%89%8B49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun005' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun005',`kefu_name`='助手49',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_7wqfwvu628cz22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun005' [ RunTime:0.0076s ]
+
+[ 2019-01-15T10:50:31+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0058s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('peng13799511614','助手32','http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg','2019-01-15 10:50:31','1') [ RunTime:0.0150s ]
+
+[ 2019-01-15T11:21:41+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0091s ]
+
+[ 2019-01-15T11:21:54+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0145s ]
+
+[ 2019-01-15T11:22:06+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0080s ]
+
+[ 2019-01-15T11:22:30+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0160s ]
+
+[ 2019-01-15T11:24:02+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0182s ]
+
+[ 2019-01-15T11:37:09+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=peng13799511614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0105s ]
+
+[ 2019-01-15T11:37:29+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=duoqun388
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0087s ]
+
+[ 2019-01-15T11:55:47+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0057s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('peng13799511614','助手32','http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg','2019-01-15 11:55:47','1') [ RunTime:0.0082s ]
+
+[ 2019-01-15T11:55:48+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0036s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0083s ]
+
+[ 2019-01-15T12:04:17+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=peng13799511614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0187s ]
+
+[ 2019-01-15T12:12:24+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0056s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('peng13799511614','助手32','http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg','2019-01-15 12:12:24','1') [ RunTime:0.0118s ]
+
+[ 2019-01-15T12:12:24+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0039s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0168s ]
+
+[ 2019-01-15T12:14:59+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=peng13799511614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0144s ]
+
+[ 2019-01-15T12:15:09+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0036s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('duoqun388','助手66','http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg','2019-01-15 12:15:09','1') [ RunTime:0.0093s ]
+
+[ 2019-01-15T12:15:10+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0037s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0090s ]
+
+[ 2019-01-15T12:15:14+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0037s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('peng13799511614','助手32','http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg','2019-01-15 12:15:14','1') [ RunTime:0.0061s ]
+
+[ 2019-01-15T12:15:14+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0169s ]
+
+[ 2019-01-15T15:27:05+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0056s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0231s ]
+
+[ 2019-01-15T15:27:15+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0084s ]
+
+[ 2019-01-15T15:28:27+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0102s ]
+
+[ 2019-01-15T15:29:54+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0117s ]
+
+[ 2019-01-15T15:36:52+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun005&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_7wqfwvu628cz22.jpg&kefu_name=%E5%8A%A9%E6%89%8B49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun005' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun005',`kefu_name`='助手49',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_7wqfwvu628cz22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun005' [ RunTime:0.0110s ]
+
+[ 2019-01-15T15:37:06+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun005&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_7wqfwvu628cz22.jpg&kefu_name=%E5%8A%A9%E6%89%8B49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun005' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun005',`kefu_name`='助手49',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_7wqfwvu628cz22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun005' [ RunTime:0.0096s ]
+
+[ 2019-01-15T15:38:52+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun005&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_7wqfwvu628cz22.jpg&kefu_name=%E5%8A%A9%E6%89%8B49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun005' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun005',`kefu_name`='助手49',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_7wqfwvu628cz22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun005' [ RunTime:0.0096s ]
+
+[ 2019-01-15T15:46:22+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun005&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_7wqfwvu628cz22.jpg&kefu_name=%E5%8A%A9%E6%89%8B49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun005' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun005',`kefu_name`='助手49',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_7wqfwvu628cz22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun005' [ RunTime:0.0141s ]
+
+[ 2019-01-15T15:51:50+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0206s ]
+
+[ 2019-01-15T15:57:02+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0259s ]
+
+[ 2019-01-15T16:51:47+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=wxid_xl35ygbrha7s22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'wxid_xl35ygbrha7s22' [ RunTime:0.0088s ]
+
+[ 2019-01-15T16:53:36+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=wxid_xl35ygbrha7s22&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'wxid_xl35ygbrha7s22' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0058s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('wxid_xl35ygbrha7s22','http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg','2019-01-15 16:53:36','1') [ RunTime:0.0109s ]
+
+[ 2019-01-15T16:53:37+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E8%8F%B2%E6%AF%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='group_admin008',`kefu_name`='菲比',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0142s ]
+
+[ 2019-01-15T17:21:51+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0115s ]
+
+[ 2019-01-15T17:22:12+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0077s ]
+
+[ 2019-01-15T17:22:20+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0082s ]
+
+[ 2019-01-15T17:22:30+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0157s ]
+
+[ 2019-01-15T17:22:32+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0163s ]
+
+[ 2019-01-15T17:22:59+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0123s ]
+
+[ 2019-01-15T17:26:08+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0098s ]
+
+[ 2019-01-15T17:26:10+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.524545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0085s ]
+
+[ 2019-01-15T17:26:18+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0162s ]
+
+[ 2019-01-15T17:27:11+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0092s ]
+
+[ 2019-01-15T17:27:30+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0130s ]
+
+[ 2019-01-15T17:27:47+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0127s ]
+
+[ 2019-01-15T17:27:55+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0102s ]
+
+[ 2019-01-15T17:28:03+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0075s ]
+
+[ 2019-01-15T17:31:03+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=duoqun388&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_okqbm9tbtibp22.jpg&kefu_name=%E5%8A%A9%E6%89%8B66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'duoqun388' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='duoqun388',`kefu_name`='助手66',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_okqbm9tbtibp22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'duoqun388' [ RunTime:0.0175s ]
+
+[ 2019-01-15T17:31:22+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0119s ]
+
+[ 2019-01-15T17:31:51+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0123s ]
+
+[ 2019-01-15T17:34:42+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0092s ]
+
+[ 2019-01-15T17:34:46+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0120s ]
+
+[ 2019-01-15T17:37:10+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0100s ]
+
+[ 2019-01-15T17:39:31+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=peng13799511614&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_97gckmloxcf022.jpg&kefu_name=%E5%8A%A9%E6%89%8B32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'peng13799511614' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='peng13799511614',`kefu_name`='助手32',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_97gckmloxcf022.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'peng13799511614' [ RunTime:0.0113s ]
+
+[ 2019-01-15T17:54:46+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=Z250575190&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_d4sn7eyvawqz12.jpg&kefu_name=%E5%8A%A9%E6%89%8B39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'Z250575190' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='Z250575190',`kefu_name`='助手39',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_d4sn7eyvawqz12.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'Z250575190' [ RunTime:0.0100s ]
+
+[ 2019-01-15T19:03:38+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0055s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0080s ]
+
+[ 2019-01-15T19:12:31+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=group_admin008
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0109s ]
+
+[ 2019-01-15T19:12:38+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E8%8F%B2%E6%AF%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0035s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('group_admin008','菲比','http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg','2019-01-15 19:12:38','1') [ RunTime:0.0052s ]
+
+[ 2019-01-15T19:12:39+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E8%8F%B2%E6%AF%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0048s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='group_admin008',`kefu_name`='菲比',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0154s ]
+
+[ 2019-01-15T19:18:08+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0055s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0201s ]
+
+[ 2019-01-15T19:49:37+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=zhuanbo909&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_4alkrptv6jbj22.jpg&kefu_name=%E6%B7%B3%E8%8E%89%E8%80%81%E5%B8%88%EF%BC%88%E5%88%86%E8%BA%AB%EF%BC%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'zhuanbo909' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0053s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='zhuanbo909',`kefu_name`='淳莉老师（分身）',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_4alkrptv6jbj22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'zhuanbo909' [ RunTime:0.0086s ]
+

@@ -1,0 +1,790 @@
+[ 2018-10-22T11:47:44+08:00 ] 58.62.53.89 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-10-22T11:47:48+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Login&a=doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `qun_admin` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_admin` WHERE `admin_account` = 'wbj' AND `admin_password` = '123456' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-10-22T11:47:48+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-10-22T11:47:49+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 ORDER BY recharge_createtime desc LIMIT 0,6   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 3  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_createtime` LIKE '2018-10-22%'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_up_time` LIKE '2018-10-22%'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-10-22T11:52:12+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Reply&a=reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2018-10-22T11:52:13+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=reply&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `qun_reply` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_reply` WHERE `reply_state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_reply` WHERE `reply_state` = 1 ORDER BY reply_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-22T11:52:14+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Package&a=lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-10-22T11:52:15+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=package&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `qun_package` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_package` WHERE `package_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_package` WHERE `package_state` = 1 ORDER BY package_id desc LIMIT 0,25   [ RunTime:0.0011s ]
+
+[ 2018-10-22T11:52:16+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Group&a=lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-10-22T11:52:17+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=group&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `qun_group` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_group` WHERE `group_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_group` WHERE `group_state` = 1 ORDER BY group_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-22T11:52:18+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Recharge&a=recharge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2018-10-22T11:52:19+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=recharge&is_pay=1&page=1&limit=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = '1' AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = '1' AND `recharge_state` = 1 ORDER BY recharge_id desc LIMIT 0,30   [ RunTime:0.0013s ]
+
+[ 2018-10-22T11:52:21+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Kefu&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2018-10-22T11:52:22+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-22T11:52:23+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Order&a=order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2018-10-22T11:52:24+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=order&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `qun_order` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_order` WHERE `order_state` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_order` WHERE `order_state` = 1 ORDER BY order_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-22T11:52:25+08:00 ] 58.62.53.89 /index.php?m=Admin&c=User&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-10-22T11:52:26+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=user&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_user` WHERE `user_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 ORDER BY user_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-22T11:52:28+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Set&a=set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qun_sys` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_sys` WHERE `sys_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2018-10-22T11:53:01+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Reply&a=editReply&reply_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `qun_reply` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_reply` WHERE `reply_id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-10-22T11:53:38+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Reply&a=editReply&reply_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `qun_reply` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_reply` WHERE `reply_id` = 3 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2018-10-22T11:53:44+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Reply&a=addReply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2018-10-22T11:53:49+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Reply&a=editReply&reply_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `qun_reply` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_reply` WHERE `reply_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2018-10-22T11:54:10+08:00 ] 112.34.110.148 /index.php?m=Admin&c=Reply&a=reply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+
+[ 2018-10-22T11:54:13+08:00 ] 112.34.110.148 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-10-22T11:55:42+08:00 ] 111.206.36.145 /index.php?m=Admin&c=Reply&a=addReply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+
+[ 2018-10-22T11:55:45+08:00 ] 111.206.36.145 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-10-22T11:56:23+08:00 ] 111.206.36.132 /index.php?m=Admin&c=Reply&a=editReply&reply_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+
+[ 2018-10-22T11:56:27+08:00 ] 111.206.36.132 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-10-22T12:08:47+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2018-10-22T12:08:47+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 ORDER BY recharge_createtime desc LIMIT 0,6   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 3  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 1  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_createtime` LIKE '2018-10-22%'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_up_time` LIKE '2018-10-22%'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-10-22T12:09:10+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-10-22T12:09:11+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 ORDER BY recharge_createtime desc LIMIT 0,6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-22%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_createtime` LIKE '2018-10-22%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_up_time` LIKE '2018-10-22%'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-10-22T12:09:12+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Teach&a=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-10-22T12:09:12+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-22T12:09:15+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Teach&a=addTeach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2018-10-22T12:09:18+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=addData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0014s ]
+SQL: INSERT INTO `qun_teach` (`teach_title`,`teach_name`,`teach_content`,`teach_createtime`,`teach_state`) VALUES ('1','1','1','2018-10-22 12:09:18','1') [ RunTime:0.0126s ]
+
+[ 2018-10-22T12:09:18+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-22T12:09:22+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 5 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-10-22T12:09:25+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='1',`teach_id`='5',`teach_name`='1',`teach_content`='2' WHERE `teach_id` = 5 [ RunTime:0.0042s ]
+
+[ 2018-10-22T12:09:25+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-22T12:09:29+08:00 ] 58.62.53.89 /index.php?m=Admin&c=Data&a=deleteData&table=teach&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0019s ]
+SQL: UPDATE `qun_teach` SET `teach_state`='0' WHERE `teach_id` = 5 [ RunTime:0.0043s ]
+

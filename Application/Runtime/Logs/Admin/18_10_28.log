@@ -1,0 +1,1044 @@
+[ 2018-10-28T13:38:10+08:00 ] 120.36.200.141 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-10-28T13:38:12+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Login&a=doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `qun_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_admin` WHERE `admin_account` = 'wbj' AND `admin_password` = '123456' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-10-28T13:38:12+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2018-10-28T13:38:12+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 ORDER BY recharge_createtime desc LIMIT 0,6   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-28%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 3  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-28%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-28%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 2  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_createtime` LIKE '2018-10-28%'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_up_time` LIKE '2018-10-28%'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2018-10-28T13:38:16+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-10-28T13:38:17+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-28T14:21:37+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 155 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2018-10-28T14:21:45+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T14:21:51+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T14:21:56+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手31',`kefu_wechat`='yanque31',`kefu_qrcode`='Uploads/2018-10-28/5bd5557f23b66.jpg',`kefu_id`='155' WHERE `kefu_id` = 155 [ RunTime:0.0123s ]
+
+[ 2018-10-28T14:21:56+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-28T14:22:00+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 155 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-10-28T14:22:07+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T14:22:09+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手31',`kefu_wechat`='yanque31',`kefu_qrcode`='Uploads/2018-10-28/5bd5558f90a01.jpg',`kefu_id`='155' WHERE `kefu_id` = 155 [ RunTime:0.0057s ]
+
+[ 2018-10-28T14:22:09+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-28T14:22:35+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=deleteData&table=kefu&id=155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 155 [ RunTime:0.0043s ]
+
+[ 2018-10-28T14:23:00+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 177 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-10-28T15:59:31+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2018-10-28T15:59:32+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0011s ]
+
+[ 2018-10-28T15:59:39+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Order&a=order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2018-10-28T15:59:40+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=order&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `qun_order` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_order` WHERE `order_state` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_order` WHERE `order_state` = 1 ORDER BY order_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-28T15:59:43+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2018-10-28T15:59:44+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-28T16:57:06+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 161 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-10-28T16:57:10+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:57:12+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手39',`kefu_wechat`='Z250575190',`kefu_qrcode`='Uploads/2018-10-28/5bd579e6b24a7.jpg',`kefu_id`='161' WHERE `kefu_id` = 161 [ RunTime:0.0046s ]
+
+[ 2018-10-28T16:57:12+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-28T16:57:22+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 177 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-10-28T16:57:29+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:57:30+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手31',`kefu_wechat`='yanque31',`kefu_qrcode`='Uploads/2018-10-28/5bd579f91bd31.jpg',`kefu_id`='177' WHERE `kefu_id` = 177 [ RunTime:0.0065s ]
+
+[ 2018-10-28T16:57:30+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-28T16:57:35+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 176 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2018-10-28T16:57:42+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:57:43+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手85',`kefu_wechat`='abuyaoa003',`kefu_qrcode`='Uploads/2018-10-28/5bd57a06a661c.jpg',`kefu_id`='176' WHERE `kefu_id` = 176 [ RunTime:0.0046s ]
+
+[ 2018-10-28T16:57:43+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-28T16:57:45+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 175 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2018-10-28T16:57:52+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 175 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-10-28T16:57:57+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:57:58+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手39',`kefu_wechat`='Z250575190',`kefu_qrcode`='Uploads/2018-10-28/5bd57a156d0a1.jpg',`kefu_id`='175' WHERE `kefu_id` = 175 [ RunTime:0.0045s ]
+
+[ 2018-10-28T16:57:58+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-28T16:58:00+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=174
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 174 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-10-28T16:58:05+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:58:06+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0020s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手09',`kefu_wechat`='wendui09',`kefu_qrcode`='Uploads/2018-10-28/5bd57a1da621b.jpg',`kefu_id`='174' WHERE `kefu_id` = 174 [ RunTime:0.0043s ]
+
+[ 2018-10-28T16:58:06+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-28T16:58:09+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 173 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2018-10-28T16:58:14+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:58:15+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手49',`kefu_wechat`='duoqun005',`kefu_qrcode`='Uploads/2018-10-28/5bd57a263c58a.jpg',`kefu_id`='173' WHERE `kefu_id` = 173 [ RunTime:0.0043s ]
+
+[ 2018-10-28T16:58:15+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-28T16:58:31+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=editKefu&kefu_id=172
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_id` = 172 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2018-10-28T16:58:36+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Tool&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2018-10-28T16:58:37+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_kefu` SET `kefu_name`='助手19',`kefu_wechat`='wendui19',`kefu_qrcode`='Uploads/2018-10-28/5bd57a3cb9151.jpg',`kefu_id`='172' WHERE `kefu_id` = 172 [ RunTime:0.0074s ]
+
+[ 2018-10-28T16:58:37+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-28T16:59:08+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=deleteData&table=kefu&id=171,170,169,168,167,166,165,164,163,162,161,160,159,158,157,156,154,153,152,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 171 [ RunTime:0.0046s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 170 [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 169 [ RunTime:0.0042s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 168 [ RunTime:0.0040s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 167 [ RunTime:0.0039s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 166 [ RunTime:0.0039s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 165 [ RunTime:0.0040s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 164 [ RunTime:0.0046s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 163 [ RunTime:0.0051s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 162 [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 161 [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 160 [ RunTime:0.0039s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 159 [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 158 [ RunTime:0.0048s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 157 [ RunTime:0.0045s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 156 [ RunTime:0.0051s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 154 [ RunTime:0.0037s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 153 [ RunTime:0.0047s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 152 [ RunTime:0.0060s ]
+
+[ 2018-10-28T16:59:08+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-28T16:59:18+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,20   [ RunTime:0.0013s ]
+
+[ 2018-10-28T16:59:59+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=deleteData&table=kefu&id=151,150,149,148,147,146,145,144,143,142,141,140,139,138,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 151 [ RunTime:0.0041s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 150 [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 149 [ RunTime:0.0033s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 148 [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 147 [ RunTime:0.0037s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 146 [ RunTime:0.0074s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 145 [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 144 [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 143 [ RunTime:0.0033s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 142 [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 141 [ RunTime:0.0034s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 140 [ RunTime:0.0037s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 139 [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 138 [ RunTime:0.0036s ]
+
+[ 2018-10-28T16:59:59+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,20   [ RunTime:0.0013s ]
+
+[ 2018-10-28T17:00:06+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,90   [ RunTime:0.0015s ]
+
+[ 2018-10-28T17:00:09+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,20   [ RunTime:0.0011s ]
+
+[ 2018-10-28T17:00:12+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,90   [ RunTime:0.0011s ]
+
+[ 2018-10-28T17:00:33+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=deleteData&table=kefu&id=137,136,135,134,133,132,131,130,128,127,126,125,124,123,122,121,120,119,118,117,115,114,113,28,24,21,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 137 [ RunTime:0.0055s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 136 [ RunTime:0.0037s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 135 [ RunTime:0.0109s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 134 [ RunTime:0.0087s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 133 [ RunTime:0.0108s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 132 [ RunTime:0.0095s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 131 [ RunTime:0.0045s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 130 [ RunTime:0.0067s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 128 [ RunTime:0.0059s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 127 [ RunTime:0.0048s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 126 [ RunTime:0.0040s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 125 [ RunTime:0.0052s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 124 [ RunTime:0.0042s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 123 [ RunTime:0.0079s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 122 [ RunTime:0.0045s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 121 [ RunTime:0.0069s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 120 [ RunTime:0.0036s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 119 [ RunTime:0.0035s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 118 [ RunTime:0.0036s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 117 [ RunTime:0.0039s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 115 [ RunTime:0.0048s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 114 [ RunTime:0.0060s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 113 [ RunTime:0.0040s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 28 [ RunTime:0.0106s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 24 [ RunTime:0.0084s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_id` = 21 [ RunTime:0.0072s ]
+
+[ 2018-10-28T17:00:33+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,90   [ RunTime:0.0012s ]
+
+[ 2018-10-28T17:22:53+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2018-10-28T17:22:53+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 ORDER BY recharge_createtime desc LIMIT 0,6   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-28%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 3  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-28%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-28%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 2  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_createtime` LIKE '2018-10-28%'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_up_time` LIKE '2018-10-28%'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2018-10-28T17:22:57+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Order&a=order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2018-10-28T17:22:57+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=order&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `qun_order` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_order` WHERE `order_state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_order` WHERE `order_state` = 1 ORDER BY order_id desc LIMIT 0,25   [ RunTime:0.0015s ]
+
+[ 2018-10-28T17:23:01+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Kefu&a=kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `qun_role` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_role` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2018-10-28T17:23:02+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=kefu&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_kefu` WHERE `kefu_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_state` = 1 ORDER BY kefu_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+

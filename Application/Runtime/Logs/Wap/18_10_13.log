@@ -1,0 +1,254 @@
+[ 2018-10-13T00:39:21+08:00 ] 101.91.60.106 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T00:39:21+08:00 ] 101.91.60.106 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2018-10-13T01:24:01+08:00 ] 192.99.225.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T01:24:01+08:00 ] 192.99.225.96 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-10-13T01:24:29+08:00 ] 192.99.225.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T01:24:29+08:00 ] 192.99.225.96 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2018-10-13T02:10:25+08:00 ] 36.110.199.48 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T02:10:25+08:00 ] 36.110.199.48 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-10-13T02:14:54+08:00 ] 207.46.13.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T02:14:55+08:00 ] 207.46.13.96 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-10-13T03:35:26+08:00 ] 36.110.199.12 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T03:35:26+08:00 ] 36.110.199.12 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-10-13T06:07:28+08:00 ] 42.236.99.194 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T06:07:29+08:00 ] 42.236.99.194 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-10-13T06:37:55+08:00 ] 207.46.13.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T12:33:59+08:00 ] 47.92.130.247 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T12:33:59+08:00 ] 47.92.130.247 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+
+[ 2018-10-13T12:36:18+08:00 ] 47.100.51.108 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T12:36:18+08:00 ] 47.100.51.108 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-10-13T13:06:44+08:00 ] 106.14.167.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T13:06:44+08:00 ] 106.14.167.211 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-10-13T14:21:20+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T19:52:45+08:00 ] 220.243.136.87 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T19:52:45+08:00 ] 220.243.136.87 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-10-13T21:42:14+08:00 ] 118.31.15.238 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T21:42:14+08:00 ] 118.31.15.238 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-10-13T21:46:34+08:00 ] 47.97.120.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2] Declaration of Wap\Controller\IndexController::Success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) /data/home/hyu4950590001/htdocs/Application/Wap/Controller/IndexController.class.php 第 0 行.
+NOTIC: [8] Undefined index: HTTPS /data/home/hyu4950590001/htdocs/Application/Common/Common/function.php 第 53 行.
+
+[ 2018-10-13T21:46:34+08:00 ] 47.97.120.5 /index.php?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+

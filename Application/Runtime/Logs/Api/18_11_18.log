@@ -1,0 +1,54 @@
+[ 2018-11-18T13:02:02+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=deleteKefu&kefu_wechat=group_admin008
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_kefu` SET `kefu_state`='0' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0103s ]
+
+[ 2018-11-18T13:03:10+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E7%88%B1%E8%B1%86%E5%B0%8F%E5%8A%A9%E6%89%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: INSERT INTO `qun_kefu` (`kefu_wechat`,`kefu_name`,`kefu_qrcode`,`kefu_createtime`,`kefu_state`) VALUES ('group_admin008','爱豆小助手','http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg','2018-11-18 13:03:10','1') [ RunTime:0.0052s ]
+
+[ 2018-11-18T18:28:20+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E7%88%B1%E8%B1%86%E5%B0%8F%E5%8A%A9%E6%89%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='group_admin008',`kefu_name`='爱豆小助手',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0063s ]
+
+[ 2018-11-18T18:29:54+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E7%88%B1%E8%B1%86%E5%B0%8F%E5%8A%A9%E6%89%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='group_admin008',`kefu_name`='爱豆小助手',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0061s ]
+
+[ 2018-11-18T19:33:44+08:00 ] 47.106.174.74 /index.php?m=Api&c=kefu&a=addAndEditKefu&kefu_wechat=group_admin008&kefu_qrcode=http%3A%2F%2F47.106.174.74%2Fqrcode%2Fwxid_xl35ygbrha7s22.jpg&kefu_name=%E7%88%B1%E8%B1%86%E5%B0%8F%E5%8A%A9%E6%89%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `qun_kefu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_kefu` WHERE `kefu_wechat` = 'group_admin008' AND `kefu_state` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `qun_kefu` SET `kefu_wechat`='group_admin008',`kefu_name`='爱豆小助手',`kefu_qrcode`='http://47.106.174.74/qrcode/wxid_xl35ygbrha7s22.jpg',`kefu_state`='1' WHERE `kefu_wechat` = 'group_admin008' [ RunTime:0.0069s ]
+

@@ -1,0 +1,111 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=640,user-scalable=0">
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+	<title>充值</title>
+	<link rel="stylesheet" type="text/css" href="/Public/Wap/css/public.css">
+	<link rel="stylesheet" type="text/css" href="/Public/Wap/css/recharge.css">
+</head>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script>
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: '<?php echo ($param["appId"]); ?>', // 必填，公众号的唯一标识
+        timestamp:'<?php echo ($param["timestamp"]); ?>', // 必填，生成签名的时间戳
+        nonceStr: '<?php echo ($param["nonceStr"]); ?>', // 必填，生成签名的随机串
+        signature: '<?php echo ($param["signature"]); ?>',// 必填，签名，见附录1
+        jsApiList: ["onMenuShareTimeline","onMenuShareAppMessage"] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    });
+    wx.ready(function() {
+        wx.onMenuShareTimeline({
+            title: '微燃课堂', // 分享标题
+            link: '<?php echo ($url); ?>', // 分享链接
+            imgUrl: '<?php echo ($img); ?>', // 分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+        wx.onMenuShareAppMessage({
+            title: '微燃课堂', // 分享标题
+            desc: '微燃课堂',
+            link: '<?php echo ($url); ?>', // 分享链接
+            imgUrl: '<?php echo ($img); ?>', // 分享图标
+            type: 'link', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+    });
+</script>
+<body>
+<form action="/index.php?m=Wap&c=Order&a=payRecharge" id="form" method="post">
+	<div id="app">
+		<div class="balance w-100">
+			<p class="left p_color4 f_size">当前余额：</p>
+			<p class="right p_color5 f_size"><span class="p_color3"><?php echo ($user["user_money"]); ?></span>元</p>
+		</div>
+		<div class="payFun w-100">
+			<p class="left p_color4 f_size">支付方式：</p>
+			<p class="right p_color5 f_size"><span></span>微信支付</p>
+		</div>
+		<div class="recharge_price w-100">
+			<p class="left p_color4 f_size">充值金额：</p>
+			<p class="right p_color5 f_size">
+				<input type="number" id="money" name="number" class="b_none f_size" placeholder="请输入充值金额">
+			</p>
+		</div>
+        <div style="background: #fff;">
+            <?php if(is_array($tao)): $i = 0; $__LIST__ = $tao;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$t): $mod = ($i % 2 );++$i;?><p style="font-size: 25px;margin-left: 25px;color: #595959;">充<?php echo ($t["money"]); ?>元送<?php echo ($t["send_money"]); ?>元！</p><br/><?php endforeach; endif; else: echo "" ;endif; ?>
+        </div>
+		<div id="price_list" class="price_list p_color1 f_size_28 text-center">
+			<div></span>500</span>元</div>
+			<div></span>2000</span>元</div>
+			<div></span>5000</span>元</div>
+			<!--<div></span>100</span>元</div>-->
+			<!--<div></span>150</span>元</div>-->
+			<!--<div></span>200</span>元</div>-->
+		</div>
+		<div id="btn" class="btn p_color2 text-center">提交</div>
+	</div>
+</form>
+    <script src="/Public/Wap/js/jquery-2.0.2.js"></script>
+    <script type="text/javascript" src="/Public/Wap/js/vue.min.js"></script>
+    <script type="text/javascript" src="/Public/Wap/js/pay.js"></script>
+    <script src="/Public/Wap/js/jquery.form.js"></script>
+    <script  type="text/javascript" src="/Public/layer-v3.0.3/mobile/layer.js"></script>
+	<script type="text/javascript">
+		var btn = document.getElementById('btn');
+		var price_list = document.getElementById('price_list');
+		var price_btn = price_list.getElementsByTagName('div');
+		for(var i = 0;i<price_btn.length;i++){
+			price_btn[i].onclick = function(){
+                var str = this.firstChild.nodeValue
+                str = str.substring(0,str.length-1);
+                $('#money').val(str);
+			}
+		}
+        btn.onclick = function (){
+            if($('#money').val()==''||$('#money').val()==0){
+                layer.open({
+                    content: '请输入正确的金额!'
+                    , skin: 'msg'
+                    , time: 2 //2秒后自动关闭
+                });
+                return false;
+            }
+            $('#form').submit();
+            return false;
+        }
+	</script>
+</body>
+</html>

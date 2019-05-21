@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* Irene Template Animation Blocks*/
+.banner-box,.function-info-content .g-list,
+.fun1 .fun1-left,
+.fun1 .fun1-right,
+.fun1 .fun1-right .fun1-m1,
+.fun1 .fun1-right .fun1-m2,
+.fun1 .fun1-right .fun1-m3,
+.fun1 .fun1-right .fun1-m4,
+.fun1 .fun1-right .fun1-m5,
+.fun1 .fun1-right .fun1-m6,
+.fun1 .fun1-right .fun1-m7,
+.fun2 .fun2-left,
+.fun2 .fun2-right,
+.fun3 .fun3-left,
+.fun3 .fun3-right
+{
+    opacity: 1;
+}

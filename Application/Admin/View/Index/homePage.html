@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="__PUBLIC__/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="__PUBLIC__/layuiadmin/style/admin.css">
+    <title>首页</title>
+</head>
+
+<body>
+    <div class="layui-fluid">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-md8">
+                <div class="layui-row layui-col-space15">
+                    <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-header">快捷方式</div>
+                            <div class="layui-card-body">
+
+                                <div class="layui-carousel layadmin-carousel layadmin-shortcut">
+                                    <div carousel-item>
+                                        <ul class="layui-row layui-col-space10">
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Manager/manager')}">
+                                                    <i class="layui-icon layui-icon-console"></i>
+                                                    <cite>添加账号</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Role/role')}">
+                                                    <i class="layui-icon layui-icon-chart"></i>
+                                                    <cite>添加角色</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Order/order')}">
+                                                    <i class="layui-icon layui-icon-template-1"></i>
+                                                    <cite>管理订单</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Set/set')}">
+                                                    <i class="layui-icon layui-icon-chat"></i>
+                                                    <cite>系统设置</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Group/lst')}">
+                                                    <i class="layui-icon layui-icon-find-fill"></i>
+                                                    <cite>添加直/录播套餐</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Kefu/kefu')}">
+                                                    <i class="layui-icon layui-icon-survey"></i>
+                                                    <cite>添加机器人</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Set/password')}">
+                                                    <i class="layui-icon layui-icon-user"></i>
+                                                    <cite>修改密码</cite>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Login/outSys')}">
+                                                    <i class="layui-icon layui-icon-set"></i>
+                                                    <cite>退出登陆</cite>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-header">事项</div>
+                            <div class="layui-card-body">
+
+                                <div class="layui-carousel layadmin-carousel layadmin-backlog">
+                                    <div carousel-item>
+                                        <ul class="layui-row layui-col-space10">
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Order/order')}" class="layadmin-backlog-body">
+                                                    <h3>今日订单数</h3>
+                                                    <p>
+                                                        <cite>{$order_num}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Order/order')}" class="layadmin-backlog-body">
+                                                    <h3>今日订单总额</h3>
+                                                    <p>
+                                                        <cite>{$money}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Recharge/recharge')}" class="layadmin-backlog-body">
+                                                    <h3>今日充值数</h3>
+                                                    <p>
+                                                        <cite>{$re_num}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Recharge/recharge')}" class="layadmin-backlog-body">
+                                                    <h3>今日充值总额</h3>
+                                                    <p>
+                                                        <cite>{$re_money}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Recharge/recharge')}" class="layadmin-backlog-body">
+                                                    <h3>今日分销数</h3>
+                                                    <p>
+                                                        <cite>{$fen_num}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a lay-href="{:U('Recharge/recharge')}" class="layadmin-backlog-body">
+                                                    <h3>今日分销总额</h3>
+                                                    <p>
+                                                        <cite>{$fen_money}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a href="javascript:;" onclick="layer.tips('不跳转', this, {tips: 3});" class="layadmin-backlog-body">
+                                                    <h3>今日新增用户</h3>
+                                                    <p>
+                                                        <cite>{$user_num}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li class="layui-col-xs3">
+                                                <a href="javascript:;" onclick="layer.tips('不跳转', this, {tips: 3});" class="layadmin-backlog-body">
+                                                    <h3>今日推荐用户</h3>
+                                                    <p>
+                                                        <cite>{$pro_num}</cite>
+                                                    </p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="layui-col-md12">-->
+                        <!--<div class="layui-card">-->
+                            <!--<div class="layui-card-header">数据概览</div>-->
+                            <!--<div class="layui-card-body">-->
+                                <!--<div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-dataview">-->
+                                    <!--<div carousel-item id="LAY-index-dataview">-->
+                                        <!--<div>-->
+                                            <!--<i class="layui-icon layui-icon-loading1 layadmin-loading"></i>-->
+                                        <!--</div>-->
+                                        <!--&lt;!&ndash; <div></div>-->
+                                        <!--<div></div> &ndash;&gt;-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!-- <div class="layui-col-md12">
+                        <div class="layui-card">
+                            <div class="layui-card-header">数据概览</div>
+                            <div class="layui-card-body">
+                                <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-dataview">
+                                    <div carousel-item id="LAY-index-dataview">
+                                        <div></div>
+                                        <div>
+                                            <i class="layui-icon layui-icon-loading1 layadmin-loading"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="layui-col-md4">
+                    <div class="layui-card">
+                        <div class="layui-card-header">动态</div>
+                        <div class="layui-card-body">
+                            <dl class="layuiadmin-card-status">
+                                <volist name="re" id="r">
+                                <dd>
+                                    <div class="layui-status-img">
+                                        <a href="javascript:;">
+                                            <img src="{$r.img}">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <if condition="$r.recharge_type eq 1">
+                                            <p>{$r.name} 充值了 ￥{$r.money} 元</p>
+                                            <elseif condition="$r.recharge_type eq 2"/>
+                                            <p>{$r.name} 分销获得了 ￥{$r.money} 元</p>
+                                            <elseif condition="$r.recharge_type eq 3"/>
+                                            <p>{$r.name} 消费了 ￥{$r.money} 元</p>
+                                        </if>
+                                        <span>{$r.recharge_createtime}</span>
+                                    </div>
+                                </dd>
+                                </volist>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="__PUBLIC__/layuiadmin/layui/layui.js?t=1"></script>
+    <script>
+        layui.config({
+            base: '__PUBLIC__/layuiadmin/' //静态资源所在路径
+        }).extend({
+            index: 'lib/index' //主入口模块
+        }).use(['index', 'console']);
+    </script>
+</body>
+
+</html>

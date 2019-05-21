@@ -1,0 +1,53 @@
+
+/*客服蒙版*/
+#mb_kefu{
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+#mb_kefu>div{
+	width: 4.34rem;
+	height: 5.3rem;
+	padding: 0 .35rem;
+	margin: 2.5rem auto;
+	background: #fff;
+	border-radius: .08rem;
+	box-sizing: border-box;
+}
+#mb_kefu>div>h4{
+	width: 100%;
+	height: .74rem;
+	border-bottom: 3px solid #f4f4f4;
+	box-sizing: border-box;
+	font-size: .3rem;
+	color: #232323;
+	font-weight: 500;
+	text-align: center;
+	line-height: .74rem;
+}
+#mb_kefu .code{
+	width: 3.2rem;
+	height: 3.2rem;
+	margin: .3rem auto;
+	background: #eeeeee;
+}
+#mb_kefu .code img{
+	width: 100%;
+	height: 100%;
+}
+#mb_kefu>div>p{
+	font-size: .26rem;
+	color: #232323;
+	font-weight: 500;
+	text-align: center;
+}
+#mb_kefu .close{
+	widows: .58rem;
+	height: .58rem;
+	position: relative;
+	top: 1rem;
+}

@@ -1,0 +1,88 @@
+.affiche{
+	height:66px;
+	line-height: 66px;
+	font-size:24px;
+	font-weight:500;
+	color:rgba(51,51,51,1);
+}
+.body-class{
+	max-width:640px;margin: 0 auto;
+}
+.affiche img{
+	margin: 19px 20px 0px 30px;
+	width:27px;
+	height:24px;
+	display: block;
+	float: left;
+}
+.affiche div{
+	margin-top: 15px;
+	margin-right: 23px;
+	float: left;
+	width:1px;
+	height:34px;
+	background:rgba(222,222,222,1);
+}
+.affiche span{
+	float: left;
+	width: 400px;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display: block;
+	font-size:24px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+}
+.nav-class{
+	line-height: 88px;
+	width: 100%;
+	height:88px;
+	background:rgba(255,255,255,1);
+	border-bottom:1px solid  #DEDEDE;
+	border-top:1px solid  #DEDEDE;
+}
+.nav-class span{
+	text-align: center;
+	display: block;
+	float: left;
+	width: 50%;
+	color: #999999;
+	font-size:30px;
+}
+.span-act{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(0,160,233,1) !important;
+}
+.content-box{
+	padding: 0 30px;
+	border-bottom: 1px solid #F5F5F5;
+}
+.content-class{
+	position: relative;
+	width:100%;
+	height:88px;
+	line-height: 88px;
+}
+
+.content-class span{
+	font-size:30px;
+	font-weight:500;
+	color:rgba(51,51,51,1);
+}
+.content-class img{
+	position:absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -14px;
+}
+.content-act{
+	color:#00A0E9 !important;
+}
+.vode-p{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}

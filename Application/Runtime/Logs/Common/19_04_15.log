@@ -1,0 +1,24 @@
+[ 2019-04-15T05:11:13+08:00 ] 47.103.55.43 /index.php/explicit_not_exist_path
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:Explicit_not_exist_path
+
+[ 2019-04-15T05:11:13+08:00 ] 47.103.56.164 /index.php/explicit_not_exist_path
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Explicit_not_exist_path
+
+[ 2019-04-15T05:11:13+08:00 ] 47.103.55.43 /index.php/explicit_not_exist_path?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Explicit_not_exist_path
+
+[ 2019-04-15T05:11:14+08:00 ] 47.103.56.164 /index.php/explicit_not_exist_path?m=Wap&c=Wechat&a=checkWechatLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Explicit_not_exist_path
+

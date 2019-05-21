@@ -1,0 +1,77 @@
+body{
+	background: #dcdcdc;
+}
+#app{
+	padding-top: .18rem;
+}
+.balance{
+	height: .7rem;
+	margin-bottom: .08rem;
+	padding-left: .3rem;
+	background: #fff;
+	box-sizing: border-box;
+	line-height: .7rem;
+	display: flex;
+}
+.left{
+	width: 1.18rem;
+}
+.right{
+	width: 3rem;
+}
+.payFun,.recharge_price{
+	height: .58rem;
+	padding-left: .3rem;
+	margin-bottom: .08rem;
+	background: #fff;
+	box-sizing: border-box;
+	line-height: .58rem;
+	display: flex;
+}
+.payFun .right{
+	padding-left: .3rem;
+	background: url('../images/icon-wx.png')no-repeat left;
+}
+.recharge_price p input{
+	height: .45rem;
+	outline: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #999; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #999; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #999; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #999; 
+} 
+.price_list{
+	width: 1005;
+	padding-left: .52rem;
+	padding-top: .25rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.price_list>div{
+	width: 1.55rem;
+	height: .65rem;
+	margin-right: .34rem;
+	margin-bottom: .26rem;
+	background: #fff;
+	border: 1px solid #2baa3f;
+	border-radius: 4px;
+	line-height: .65rem;
+	box-sizing: border-box;
+}
+.btn{
+	width: 4.9rem;
+	height: .58rem;
+	margin: .58rem auto;
+	background: #2baa3f;
+	font-size: .24rem;
+	border-radius: 4px;
+	line-height: .58rem;
+}

@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+	margin-bottom: 200px;
+}
+.header{
+	height: 88px;
+	border-bottom: 20px solid #f2f2f2;
+	display: flex;
+}
+.header-hr{
+	width: 2px;
+	height: 48px;
+	background: #ccc;
+	margin-top: 20px;
+}
+.header-desc{
+	flex: 1;
+	height: 88px;
+	line-height: 88px;
+	text-align: center;;
+	font-size: 30px;
+	color: #999;
+	font-weight: 500;
+}
+.center-title{
+	height: 87px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 87px;
+	font-size: 30px;
+	color: #E77E55;
+	font-weight: 500;
+}
+.center-table-title{
+	height: 60px;
+	display: flex;
+}
+.center-table-title>div{
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+	color: #999;
+	font-weight: 500;
+	box-sizing: border-box;;
+}
+.center-table-title-desc1{
+	width: 136px;
+	padding-left: 20px;
+}
+.center-table-title-desc2{
+	width: 150px;
+	padding-left: 12px;
+}
+.center-table-title-desc3{
+	width: 136px;
+	padding-left: 12px;
+}
+.center-table-title-desc4{
+	width: 218px;
+	padding-left: 12px;
+}
+.center-tableBox{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: 333;
+	font-weight: 500;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+}
+.center-tableBox-left{
+	width: 136px;
+	padding: 20px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+}
+.center-tableBox-right{
+	flex: 1;
+}
+.center-tableBox-right-list-row{
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+.tableBox-right-row1{
+	width: 150px;
+	padding: 20px 12px;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+}
+.tableBox-right-row2{
+	width: 136px;
+	padding: 20px 12px;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+}
+.tableBox-right-row3{
+	width: 218px;
+	padding: 20px 12px;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+}
+.center-tableBox-right-bottom{
+	height: 60px;
+	border-right: 1px solid #ccc;
+	display: flex;
+}
+.center-tableBox-right-bottom p{
+	flex: 1;
+	padding: 0 12px;
+	line-height: 60px;
+}
+.center-state{
+	height: 58px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 58px;
+	text-align: center;
+	font-size: 24px;
+	color: #48A948;
+	font-weight: 500;
+}
+.center-footer{
+	height: 59px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+}
+.center-footer>p{
+	flex: 1;
+	line-height: 59px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.color1{
+	color: #48A948;
+}
+.color2{
+	color: #E77E55;
+}

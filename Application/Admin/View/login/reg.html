@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>注册 - 自助售货机后台</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="../../layuiadmin/layui/css/layui.css" media="all">
+  <link rel="stylesheet" href="../../layuiadmin/style/admin.css" media="all">
+  <link rel="stylesheet" href="../../layuiadmin/style/login.css" media="all">
+</head>
+<body>
+
+
+  <div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login" style="display: none;">
+    <div class="layadmin-user-login-main">
+      <div class="layadmin-user-login-box layadmin-user-login-header">
+        <h2>自助售货机后台</h2>
+      </div>
+        <form action="/index.php?m=Admin&c=Login&a=doLogin" method="post" id="form">
+      <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-cellphone" ></label>
+          <input type="text" name="username"   placeholder="账号" class="layui-input">
+        </div>
+        <!--<div class="layui-form-item">-->
+          <!--<div class="layui-row">-->
+          <!--<div class="layui-col-xs7">-->
+          <!--<label class="layadmin-user-login-icon layui-icon layui-icon-vercode" for="LAY-user-login-vercode"></label>-->
+          <!--<input type="text" name="vercode" id="LAY-user-login-vercode" lay-verify="required" placeholder="验证码" class="layui-input">-->
+          <!--</div>-->
+          <!--<div class="layui-col-xs5">-->
+          <!--<div style="margin-left: 10px;">-->
+          <!--<button type="button" class="layui-btn layui-btn-primary layui-btn-fluid" id="LAY-user-getsmscode">获取验证码</button>-->
+          <!--</div>-->
+          <!--</div>-->
+          <!--</div>-->
+          <!--</div>-->
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-password"></label>
+          <input type="password" name="password" id="LAY-user-login-password" lay-verify="pass" placeholder="密码" class="layui-input">
+        </div>
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-repass"></label>
+          <input type="password" name="repass" id="LAY-user-login-repass" lay-verify="required" placeholder="确认密码" class="layui-input">
+        </div>
+        <div class="layui-form-item">
+          <input type="checkbox" name="agreement" lay-skin="primary" title="同意用户协议" checked>
+        </div>
+        <div class="layui-form-item">
+          <button type="button" class="layui-btn layui-btn-fluid" lay-submit lay-filter="LAY-user-reg-submit">注 册</button>
+        </div>
+        <div class="layui-trans layui-form-item layadmin-user-login-other">
+          <a href="{:U('Login/login')}" class="layadmin-user-jump-change layadmin-link layui-hide-xs">用已有帐号登入</a>
+          <a href="{:U('Login/login')}" class="layadmin-user-jump-change layadmin-link layui-hide-sm layui-show-xs-inline-block">登入</a>
+        </div>
+      </div>
+            </form>
+    </div>
+  </div>
+
+  <script src="../../layuiadmin/layui/layui.js"></script>  
+  <script>
+  layui.config({
+    base: '../../layuiadmin/' //静态资源所在路径
+  }).extend({
+    index: 'lib/index' //主入口模块
+  }).use(['index', 'user'], function(){
+    var $ = layui.$
+    ,setter = layui.setter
+    ,admin = layui.admin
+    ,form = layui.form
+    ,router = layui.router();
+
+    form.render();
+
+    //提交
+      form.on('submit(LAY-user-reg-submit)', function(obj){
+          var field = obj.field;
+          //确认密码
+          if(field.password !== field.repass){
+              return layer.msg('两次密码输入不一致');
+          }
+
+          //是否同意用户协议
+          if(!field.agreement){
+              return layer.msg('你必须同意用户协议才能注册');
+          }
+          $.post("{:U('Login/doRegister')}",obj.field,function(res){
+              if(res.success == 1){
+                  layer.msg(res.msg, {time: 2000});
+                  var url = "/index.php?m=Admin&c=Login&a=login"; //
+                  setTimeout(window.location.href=url,2000);
+              }else{
+                  layer.msg(res.msg, {time: 2000});
+              }
+          },'json');
+          return false;
+      });
+  });
+  </script>
+</body>
+</html>

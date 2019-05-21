@@ -1,0 +1,91 @@
+
+body{
+	background: #fff;
+	font-size: 100px;
+}
+.not_null,.no_not_null{
+	width: 100%;
+}
+.not_null .hd,.no_not_null .hd{
+	width: 100%;
+	height: .65rem;
+	padding-left: .3rem;
+	background: #eee;
+	box-sizing: border-box;
+}
+.not_null .hd p,.no_not_null .hd p{
+	font-size: .2rem;
+	color: #595959;
+	line-height: .65rem;
+}
+.not_null .content,.no_not_null .content{
+	width: 100%;
+	padding: .35rem .25rem 0 .3rem;
+	box-sizing: border-box;
+}
+.not_null .content .h58,.no_not_null .content .h58{
+	height: .58rem;
+	line-height: .58rem;
+}
+.not_null .content .w428,.no_not_null .content .w428{
+	width: 4.28rem
+}
+.not_null .content .classify{
+	width: 100%;
+}
+.not_null .content .classify p{
+	font-size: .23rem;
+	color: #232323;
+	background: url('../images/icon-bottom.png')no-repeat right;
+}
+.not_null .content .classify .classify-list{
+	width: 100%;
+	padding: .25rem 0 .25rem .17rem;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.not_null .content .classify .classify-list>div{
+	display: inline-block;
+	height: .4rem;
+	margin-right: .2rem;
+	margin-bottom: .22rem;
+	padding: 0 .15rem;
+	font-size: .22rem;
+	color: #fff;
+	line-height: .38rem;
+	background: #dcdcdc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.not_null .content .phone,.not_null .content .wx,.not_null .content .startTime,.not_null .content .Time,.not_null .content .qunNum,.no_not_null .content  .special_helper,.no_not_null .content  .qunText{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.not_null .content label,.no_not_null .content label{
+	padding: 0 .1rem;
+	font-size: .23rem;
+	color: #232323;
+	box-sizing: border-box;
+}
+.not_null .content input,.no_not_null .content input{
+	outline: none;
+}
+.getOrder{
+	width: 100%;
+	text-align: center;
+}
+.getOrder button{
+	width: 5.05rem;
+	height: .66rem;
+	margin: .55rem auto;
+	border-radius: 4px;
+	font-size: .25rem;
+	color: #fff;
+}
+.not_null .content .startTime p{
+	font-size: .23rem;
+	color: #232323;
+	background: url('../images/icon-bottom.png')no-repeat right;
+}

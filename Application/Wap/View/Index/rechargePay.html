@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=640,user-scalable=0">
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+	<title>充值</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/public.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/pay.css">
+</head>
+<script type="text/javascript">
+    //调用微信JS api 支付
+    function jsApiCall()
+    {
+        WeixinJSBridge.invoke(
+                'getBrandWCPayRequest',
+                {$jsApiParameters},
+                function(res){
+                    WeixinJSBridge.log(res.err_msg);
+                    if(res.err_msg=="get_brand_wcpay_request:ok"){
+                        window.location.href="{:U('Index/wallet')}"
+                    }
+                }
+        );}
+
+    function callpay()
+    {
+        if (typeof WeixinJSBridge == "undefined"){
+            if( document.addEventListener ){
+                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+            }else if (document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+            }
+        }else{
+            jsApiCall();
+        }
+    }
+    callpay();
+</script>
+<body>
+	<div id="app" v-clock>
+		<div class="hd">
+			<p>充值支付</p>
+		</div>
+		<div class="content">
+			<div class="b_bottom">
+				<p class="f_size_23">订单详情</p>
+				<p class="f_size_23">充值支付</p>
+			</div>
+			<div>
+				<p class="f_size_23">充值金额</p>
+				<p class="f_size_30 p_color3">￥{$money}</p>
+			</div>
+		</div>
+		<div class="payBox">
+			<div class="pay2">
+				<div class="pay2box">
+					<p class="payname f_size p_color5">微信支付</p>
+					<p class="paytext p_color4">微信支付</p>
+				</div>
+				<div class="radio" >
+					<img  src="__PUBLIC__/Wap/images/select2.png" alt=""  />
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="__PUBLIC__/Wap/js/jquery-2.0.2.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Wap/js/vue.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Wap/js/pay.js"></script>
+    <script src="__PUBLIC__/Wap/js/jquery.form.js"></script>
+    <script  type="text/javascript" src="__PUBLIC__/layer-v3.0.3/mobile/layer.js"></script>
+    <script>
+    </script>
+</body>
+</html>

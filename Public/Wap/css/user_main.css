@@ -1,0 +1,57 @@
+@import "../component/kefu.css";
+header{
+	width: 100%;
+	padding: .76rem .4rem 0;	
+	box-sizing: border-box;
+}
+header>div{
+	width: 100%;
+	height: 1.58rem;
+	padding: 0 .12rem;
+	background: url('../images/icon-right.png')no-repeat 5.2rem center;
+	display: flex;
+	box-sizing: border-box;
+}
+header>div>.img{
+	width: 1.33rem;
+	height: 1.33rem;
+	margin-right: .24rem;
+	border-radius: 5px;
+}
+header>div>.img img{
+	width: 1.33rem;
+	height: 1.33rem;
+	border-radius: 5px;
+}
+header>div>.user{
+	width: 3.7rem;
+	height: 1.33rem;
+	padding-top: .28rem;
+}
+section{
+	padding: 0 .4rem;
+	box-sizing: border-box;
+}
+section div{
+	background:  url('../images/icon-right.png')no-repeat 5.2rem center;
+}
+.order>div{
+	height: 1rem;
+	line-height: 1rem;
+}
+section>div>p{
+	padding-left: .54rem;
+	box-sizing: border-box;
+}
+.wallet>div{
+	height: .8rem;
+	line-height: .8rem;
+}
+.custom_service>div{
+	height: .88rem;
+	line-height: .88rem;
+}
+footer p{
+	width: 100%;
+	margin-top: .2rem;
+}

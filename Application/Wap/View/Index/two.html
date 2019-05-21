@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=640,user-scalable=0">
+	<title>直播详情</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/two.css">
+</head>
+<body>
+	<div class="box">
+		<header class="header">
+			<div class="header-desc">直播情况</div>
+			<div class="header-hr"></div>
+			<div class="header-desc color1">人数统计</div>
+		</header>
+		<section class="center">
+			<h4 class="center-title">{$data.title}</h4>
+
+			<div class="center-table-title">
+				<div>群名称</div>
+				<div>群人数</div>
+			</div>
+
+			<div class="center-tableBox">
+                <volist name="data.rooms" id="a">
+				<div class="center-tableBox-row">
+					<div class="b-right">{$a.roomName}</div>
+					<div>{$a.memberCount}</div>
+				</div>
+                    </volist>
+			</div>
+
+			<div class="center-state color2">总计：{$data.roomCount}个群、{$data.num}人</div>
+		</section>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	var nav = document.getElementsByClassName('header-desc')[0];
+	nav.onclick = function(){
+        var id = '{$id}';
+        console.log(id);
+        window.location.href = "{:U('zhibo')}&sessionid="+id+"&num={$num1}"
+	}
+</script>

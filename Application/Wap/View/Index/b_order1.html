@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=640,user-scalable=0">
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+	<title>我要下单</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/public.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/b_order1.css">
+</head>
+<body>
+<form action="/index.php?m=Wap&c=Order&a=vipOrder" method="post" id="form">
+	<div id="app" >
+		<div class="not_null">
+			<div class="hd">
+				<p>基本信息</p>
+			</div>
+			<div class="content">
+				<div class="classify h58  m_bottom_25">
+					<label>每月/群费用</label>
+					<p class="w362 f_size_30 text-right p_color3">￥{$price}</p>
+				</div>
+                <div class="h58 b_bottom m_bottom_25">
+                    <label>包月群数量</label>
+                    <input type="number" id="vip_num" name="vip_num" class="w362 b_none f_size" v-model="vip_num" :value="vip_num" placeholder="请输入包月群数量">
+                </div>
+				<div class="h58 b_bottom m_bottom_25">
+					<label>手机号码</label>
+					<input type="number" id="phone" name="user_tel" class="w362 b_none f_size" v-model="phone" :value="phone" placeholder="请输入手机号码">
+				</div>
+				<div class="h58 b_bottom m_bottom_25">
+					<label>微信号</label>
+					<input type="text" id="wx" name="user_wechat" class="w362 b_none f_size" v-model="wxNum" :value="wxNum" placeholder="请输入微信号码">
+				</div>
+				<div class="h58 b_bottom m_bottom_25">
+					<label>购买月长</label>
+					<input type="number" id="Time" name="times" class="w362 b_none f_size" v-model="Time" :value="Time" placeholder="请输入购买月长(月份为单位)">
+				</div>
+			</div>
+		</div>
+		<div class="getOrder">
+            <input type="hidden" name="type" value="{$type}"/>
+			<button type="button" class="p_back1 noborder" id="sureOrder">确认下单</button>
+		</div>
+		<!--<transition>-->
+			<!--<div v-if="alertBox" class="alert">{{alertText}}</div>-->
+		<!--</transition>-->
+	</div>
+</form>
+<script src="__PUBLIC__/Wap/js/jquery-2.0.2.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Wap/js/vue.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Wap/js/b_order1.js"></script>
+<script src="__PUBLIC__/Wap/js/jquery.form.js"></script>
+<script  type="text/javascript" src="__PUBLIC__/layer-v3.0.3/mobile/layer.js"></script>
+<script>
+    $('#sureOrder').click(function(){
+        if($('#phone').val()==''||$('#phone').val().length!=11||isNaN($('#Time').val())==true){
+            layer.open({
+                content: '请输入正确手机格式!'
+                , skin: 'msg'
+                , time: 2 //2秒后自动关闭
+            });
+            return false;
+        }
+        if($('#wx').val()==''||$('#Time').val()==''||$('#Time').val()==0){
+            layer.open({
+                content: '请填写完整!'
+                , skin: 'msg'
+                , time: 2 //2秒后自动关闭
+            });
+            return false;
+        }
+        if($('#vip_num').val()<5){
+            layer.open({
+                content: '包月最少要五个群!'
+                , skin: 'msg'
+                , time: 2 //2秒后自动关闭
+            });
+            return false;
+        }
+        $('#form').ajaxSubmit({
+            type: "post",
+            url : '/index.php?m=Wap&c=Order&a=vipOrder',
+            success: function (data) {
+                if (data.success == 1) {
+                    // 此处可对 data 作相关处理
+                    layer.open({
+                        content: '下单成功!'
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout('window.location.href = "{:U('Index/b_order2')}&id='+data.data+'";',1000);
+                }
+                return false;
+            }
+        })
+    })
+</script>
+</body>
+</html>

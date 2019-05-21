@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=640,user-scalable=0">
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+	<title>我的分销记录</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/public.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wap/css/wallet.css">
+</head>
+<body>
+	<div id="app">
+		<header class="w-100">
+			<p class="f_size_23 p_color2 w-100 text-center">可用余额(元)</p>
+			<h2 class="w-100 p_color2 text-center">+{$user.user_money}</h2>
+			<div id="btn" class="p_color2 text-center"><span>充值</span></div>
+		</header>
+		<section>
+			<div class="title">
+				<span class="f_size">分销记录</span>
+			</div>
+            <volist name="data" id="d">
+                <div class="list">
+                    <div class="left">
+                        <h2 class="p_color5">分销</h2>
+                        <p class="p_color4">{$d.recharge_createtime}</p>
+                    </div>
+                    <div class="right">
+                        <p class="p_color5 text-right">{$d.money}</p>
+                    </div>
+                </div>
+            </volist>
+		</section>
+	</div>
+	<script type="text/javascript">
+		var btn = document.getElementById('btn');
+		btn.onclick= function(){
+			window.location.href='{:U('recharge')}';
+		}
+	</script>
+</body>
+</html>

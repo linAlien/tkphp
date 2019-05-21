@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+    <link rel="stylesheet" href="/templets/default/style/bootstrap.css">
+    <link rel="stylesheet" href="/templets/default/style/animate.css">
+    <link rel="stylesheet" href="/templets/default/style/style.css">
+    <link rel="stylesheet" href="/templets/default/style/about.css">
+<!-- tzketang.com Baidu tongji analytics -->
+
+</head>
+<body>
+
+{dede:include filename="head.htm"/}
+
+
+
+<div class="banner introduction" style="background-image:url(/templets/default/images/banner3.png);">
+
+    <div class="banner-box">
+        <h2>
+            让学习成为生活的一部分<br/>
+            小微课堂 让微课更简单
+        </h2>
+        <i class="hr"></i>
+    </div>
+</div>
+
+<!--功能介绍-->
+<main>
+
+    <div class="about">
+        <div class="container">
+            <div class="about-menu row">
+                <ul class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 row">
+                    
+				{dede:channel           row='4'         typeid ='2'      }	
+                    <li class="col-xs-4">
+                        <a href="[field:typelink/]">[field:typename/]</a>
+                    </li>
+                 {/dede:channel}   
+                  
+					
+                </ul>
+            </div>
+
+
+            <div class="about-content row">
+                <div class="gs-info">
+                    <div class="row col-md-10 col-md-offset-1 row">
+                        
+
+                     
+                            
+
+                            {dede:field.content/}
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+{dede:include filename="footer.htm"/}
+
+
+
+<script src="/templets/default/style/jquery-2.1.0.min.js"></script>
+<script src="/templets/default/style/swiper.min.js"></script>
+<script src="/templets/default/style/waypoints.min.js"></script>
+<script src="/templets/default/style/animate.js"></script>
+<script src="/templets/default/style/nav.js"></script>
+<script src="/templets/default/style/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,563 @@
+[ 2018-10-26T16:07:35+08:00 ] 120.36.200.141 /index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2018-10-26T16:07:45+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Login&a=doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `qun_admin` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_admin` WHERE `admin_account` = 'wbj' AND `admin_password` = '123456' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-10-26T16:07:45+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2018-10-26T16:07:46+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=homePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `qun_recharge` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `is_pay` = 1 AND `recharge_state` = 1 ORDER BY recharge_createtime desc LIMIT 0,6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qun_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_id` = 113 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-26%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 3  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-26%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_recharge` WHERE `recharge_createtime` LIKE '2018-10-26%' AND `recharge_state` = 1 AND `is_pay` = 1 AND `recharge_type` = 2  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_createtime` LIKE '2018-10-26%'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qun_user` WHERE `user_state` = 1 AND `user_up_time` LIKE '2018-10-26%'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-10-26T16:07:47+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-10-26T16:07:48+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-26T16:07:50+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-10-26T16:10:00+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2018-10-26T16:11:03+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2018-10-26T16:12:42+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2018-10-26T16:19:05+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='多群直播下单教程',`teach_id`='4',`teach_name`='随时下单，随时直播',`teach_content`='<p style=\"text-align: center;\"><span><span><span><strong><span><span>步骤一</span></span></strong></span></span></span></p><p><span><span><span data-css=\"color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;text-align: left\"><span>●从【微燃课堂】公众号进入【我要转播】－【我要直播】，查看注意事项与收费标准</span></span></span></span></p><section data-css=\"color:rgb(255,255,255);font-size: 16px\" data-style=\"font-size: 16px;color:rgb(255,255,255)\" style=\"text-align: center;\"><p style=\"text-align: left;\"><span><span><span><span><span><span><span>●点击下方【我要下单】进入下单页面，填入基本信息</span></span></span></span></span><span><span><span><span><span>，&nbsp;</span></span></span></span><span><span><span><span><span>预计群数量为小助手需要进入的群数。</span></span></span></span></span></span></span></span></p><p style=\"text-align: left;\"><span><span><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●首次下单时，手机号是必填项</span></span></span></p><p style=\"text-align: left;\"><span><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><span><span>●小助手群昵称和进群欢迎语为默认非必填项，可随意修改，不支持特殊字符。</span></span></span></span></p><p style=\"text-align: left;\"><span><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><span><span><img src=\"/Uploads/2018-10-26/5bd2cbd8ca92b.jpg\" alt=\"undefined\"><br></span></span></span></span></p><p><span><span>步骤二</span></span></p><p style=\"text-align: left;\"><span><span><span>●记住四位验证码。添加每一个小助手后，将验证码发给小助手验证。<br>●将小助手拉进群。只需要在主讲群内@小助手发送指令。<br></span></span></span><p><span><span><span>●请进入【个人中心】－【我的订单】中查看直播总人数，各群信息等详情。</span></span></span></p><p><span><span><span><img src=\"/Uploads/2018-10-26/5bd2cc17dcd07.jpg\" alt=\"undefined\"><br></span></span></span></p><p style=\"text-align: center;\"><span><span><b>步骤三</b></span></span></p></p><p style=\"text-align: left;\"><span><span>●添加小助手之后，发送验证码。<br>●验证之后邀请小助手进群，每个群内只需要一个小助手。<br>●在主讲群内@小助手+指令，进行 设置。<br>●@小助手+设置主讲群、设置讲师、取消讲师、开始讲课、开始提问、关闭提问、结束等指令。<br></span></span><p><span><span>●在公众号-【个人中心】-【订单详情】可查看清单详情，包括群总人数，单个群人数，进群时间等。</span></span></p><p><span><span><br></span></span></p><p><span><span><img src=\"/Uploads/2018-10-26/5bd2cc7a4acf4.jpg\" alt=\"undefined\"><br></span></span></p></p><p style=\"text-align: left;\"><span><span>●所设置的主讲老师在主讲群内讲课的内容就会被转播到其它群内。<br></span></span><p><span><span>●最晚到当天24:00，系统自动结束此订单，小助手自动退群。</span></span></p><p><span><span><br></span></span></p><p>操作指令详情，请查看《小助手设置说明》</p></p></section>' WHERE `teach_id` = 4 [ RunTime:0.0101s ]
+
+[ 2018-10-26T16:19:05+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-26T16:20:11+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-10-26T16:23:30+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-10-26T16:44:56+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='小助手操作指令',`teach_id`='3',`teach_name`='小助手进群后 @小助手+指令 随意操作',`teach_content`='<p><br></p><p>添加小助手之后，把验证码发送给小助手。（只需要发送给任意一个小助手就行）</p><p>邀请小助手进群。</p><p>1、在主讲群内@小助手 设置主讲群（将这个群设置为主讲群）</p><p>2、讲师 在主讲群内 @小助手 设置讲师&nbsp;</p><p>3、讲师 @小助手 开始讲课&nbsp;</p><p><br></p><p>接下来所有讲师在主讲群内发送的内容，都会被同步到其他群里。</p><p><img src=\"/Uploads/2018-10-26/5bd2cf028c3d2.png\" alt=\"undefined\"><br></p><p><br></p><p>4、讲师@小助手 暂停</p><p>5、讲师@小助手 继续</p><p>6、讲师@小助手 结束 （转播结束，小助手1min后会退出所有群聊）</p>' WHERE `teach_id` = 3 [ RunTime:0.0119s ]
+
+[ 2018-10-26T16:44:56+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+
+[ 2018-10-26T16:47:13+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 4 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2018-10-26T16:47:28+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-10-26T16:48:15+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2018-10-26T16:49:32+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-10-26T16:49:50+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='多群直播下单教程',`teach_id`='2',`teach_name`='随时下单，随时直播',`teach_content`='<p><span data-css=\"color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;text-align: left\">●从【微燃课堂】公众号进入【我要转播】－【我要直播】，查看注意事项与收费标准</span></p><section data-css=\"color:rgb(255,255,255);font-size: 16px\" data-style=\"font-size: 16px;color:rgb(255,255,255)\" style=\"text-align: center;\"><p style=\"text-align: left;\">●点击下方【我要下单】进入下单页面，填入基本信息。</p><p style=\"text-align: left;\">。</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><img src=\"/Uploads/2018-10-26/5bd2d4cfc7f8d.png\" alt=\"undefined\"><br></span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●预计群数量为小助手需要进入的群数</span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●</span>首次下单时，手机号是必填项</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●小助手群昵称和进群欢迎语为默认非必填项，可随意修改，不支持特殊字符</span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><img src=\"/Uploads/2018-10-26/5bd2d51cd70a0.png\" alt=\"undefined\"><br></span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><br></span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><br></span></p></section>' WHERE `teach_id` = 2 [ RunTime:0.0098s ]
+
+[ 2018-10-26T16:49:50+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-26T16:49:55+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2018-10-26T16:50:21+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-10-26T16:50:22+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0011s ]
+
+[ 2018-10-26T16:50:24+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-10-26T16:53:36+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2018-10-26T16:53:54+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2018-10-26T16:55:43+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Index&a=uploadImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/home/hyu4950590001/htdocs/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2018-10-26T16:57:15+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0015s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='多群直播下单教程',`teach_id`='2',`teach_name`='随时下单，随时直播',`teach_content`='<p><span data-css=\"color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;text-align: left\">●从【微燃课堂】公众号进入【我要转播】－【我要直播】，查看注意事项与收费标准</span></p><section data-css=\"color:rgb(255,255,255);font-size: 16px\" data-style=\"font-size: 16px;color:rgb(255,255,255)\" style=\"text-align: center;\"><p style=\"text-align: left;\">●点击下方【我要下单】进入下单页面，填入基本信息。</p><p style=\"text-align: left;\">。</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><img src=\"/Uploads/2018-10-26/5bd2d4cfc7f8d.png\" alt=\"undefined\"><br></span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●预计群数量为小助手需要进入的群数</span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●</span>首次下单时，手机号是必填项</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●小助手群昵称和进群欢迎语为默认非必填项，可随意修改，不支持特殊字符</span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><img src=\"/Uploads/2018-10-26/5bd2d51cd70a0.png\" alt=\"undefined\"><br></span></p><p style=\"text-align: left;\"><b>步骤二</b></p><p style=\"text-align: left;\"><p>●记住四位验证码。</p><p>●添加每一个小助手后，将验证码发给小助手验证。</p><p><span style=\"text-align: center;\"><br></span></p><p><span style=\"text-align: center;\"><img src=\"/Uploads/2018-10-26/5bd2d610e373c.png\" alt=\"undefined\"><img src=\"/Uploads/2018-10-26/5bd2d622acded.png\" alt=\"undefined\"><br></span></p><p><span style=\"text-align: center;\">●请进入【个人中心】－【我的订单】中查看直播总人数，各群信息等详情。</span></p><p><span style=\"text-align: center;\"><br></span></p><p>●将小助手拉进群后。只需要在主讲群内@小助手发送指令，即可进行设置。</p><p><img src=\"/Uploads/2018-10-26/5bd2d68fb55df.png\" alt=\"undefined\"><br></p><p style=\"text-align: left;\"><br></p></p><p style=\"text-align: left;\">更多详细设置查看《小助手设置说明》</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">任何疑问添加客服咨询：zhuanbo77，或点击右下角电话咨询。</span></p></section>' WHERE `teach_id` = 2 [ RunTime:0.0066s ]
+
+[ 2018-10-26T16:57:15+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0012s ]
+
+[ 2018-10-26T16:57:27+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2018-10-26T16:57:38+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0017s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='多群直播下单教程',`teach_id`='2',`teach_name`='随时下单，随时直播',`teach_content`='<p><span data-css=\"color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;text-align: left\"><b>步骤一</b></span></p><p><span data-css=\"color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;text-align: left\">●从【微燃课堂】公众号进入【我要转播】－【我要直播】，查看注意事项与收费标准</span></p><section data-css=\"color:rgb(255,255,255);font-size: 16px\" data-style=\"font-size: 16px;color:rgb(255,255,255)\" style=\"text-align: center;\"><p style=\"text-align: left;\">●点击下方【我要下单】进入下单页面，填入基本信息。</p><p style=\"text-align: left;\">。</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><img src=\"/Uploads/2018-10-26/5bd2d4cfc7f8d.png\" alt=\"undefined\"><br></span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●预计群数量为小助手需要进入的群数</span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●</span>首次下单时，手机号是必填项</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">●小助手群昵称和进群欢迎语为默认非必填项，可随意修改，不支持特殊字符</span></p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\"><img src=\"/Uploads/2018-10-26/5bd2d51cd70a0.png\" alt=\"undefined\"><br></span></p><p style=\"text-align: left;\"><b>步骤二</b></p><p style=\"text-align: left;\"></p><p>●记住四位验证码。</p><p>●添加每一个小助手后，将验证码发给小助手验证。</p><p><span style=\"text-align: center;\"><br></span></p><p><span style=\"text-align: center;\"><img src=\"/Uploads/2018-10-26/5bd2d610e373c.png\" alt=\"undefined\"><img src=\"/Uploads/2018-10-26/5bd2d622acded.png\" alt=\"undefined\"><br></span></p><p><span style=\"text-align: center;\">●请进入【个人中心】－【我的订单】中查看直播总人数，各群信息等详情。</span></p><p><span style=\"text-align: center;\"><br></span></p><p>●将小助手拉进群后。只需要在主讲群内@小助手发送指令，即可进行设置。</p><p><img src=\"/Uploads/2018-10-26/5bd2d68fb55df.png\" alt=\"undefined\"><br></p><p style=\"text-align: left;\"><br></p><p></p><p style=\"text-align: left;\">更多详细设置查看《小助手设置说明》</p><p style=\"text-align: left;\"><span data-css=\"background-color: rgb(42, 193, 60);color: rgb(255, 255, 255);font-family: 宋体;font-size: 12px;line-height: 22.4px\">任何疑问添加客服咨询：zhuanbo77，或点击右下角电话咨询。</span></p></section>' WHERE `teach_id` = 2 [ RunTime:0.0131s ]
+
+[ 2018-10-26T16:57:38+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0013s ]
+
+[ 2018-10-26T16:57:45+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Teach&a=editTeach&teach_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_id` = 4 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-10-26T16:58:28+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=editData&table=teach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: UPDATE `qun_teach` SET `teach_title`='群内提问互动操作说明',`teach_id`='4',`teach_name`='提问互动，知识传递更有效',`teach_content`='<p style=\"text-align: center;\"><br></p><section data-css=\"color:rgb(255,255,255);font-size: 16px\" data-style=\"font-size: 16px;color:rgb(255,255,255)\" style=\"text-align: center;\"><p></p></section>' WHERE `teach_id` = 4 [ RunTime:0.0054s ]
+
+[ 2018-10-26T16:58:28+08:00 ] 120.36.200.141 /index.php?m=Admin&c=Data&a=getData&table=teach&page=1&limit=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `qun_teach` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qun_teach` WHERE `teach_state` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qun_teach` WHERE `teach_state` = 1 ORDER BY teach_id desc LIMIT 0,25   [ RunTime:0.0014s ]
+

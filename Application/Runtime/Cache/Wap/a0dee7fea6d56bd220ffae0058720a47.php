@@ -1,0 +1,148 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=640,user-scalable=0">
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+	<title>付款</title>
+	<link rel="stylesheet" type="text/css" href="/Public/Wap/css/public.css">
+	<link rel="stylesheet" type="text/css" href="/Public/Wap/css/pay.css">
+</head>
+<script type="text/javascript">
+    //调用微信JS api 支付
+    function jsApiCall()
+    {
+        WeixinJSBridge.invoke(
+                'getBrandWCPayRequest',
+                <?php echo ($jsApiParameters); ?>,
+                function(res){
+                    WeixinJSBridge.log(res.err_msg);
+                    if(res.err_msg=="get_brand_wcpay_request:ok"){
+                        window.location.href="<?php echo U('Index/Success');?>&id=<?php echo ($order["order_id"]); ?>"
+                    }
+                }
+        );}
+
+    function callpay()
+    {
+        if (typeof WeixinJSBridge == "undefined"){
+            if( document.addEventListener ){
+                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+            }else if (document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+            }
+        }else{
+            jsApiCall();
+        }
+    }
+</script>
+<body>
+	<div id="app" v-clock>
+		<div class="hd">
+			<p>订单支付</p>
+		</div>
+		<div class="content">
+			<div class="b_bottom">
+				<p class="f_size_23">订单详情</p>
+				<p class="f_size_23"><?php echo ($order["details"]); ?></p>
+			</div>
+			<div>
+				<p class="f_size_23">支付金额</p>
+				<p class="f_size_30 p_color3">￥<?php echo ($order["order_price"]); ?></p>
+			</div>
+		</div>
+		<div class="payBox">
+			<div class="pay1 b_bottom">
+				<div class="pay1box">
+					<p class="payname f_size">余额支付</p>
+					<p class="paytext">用户余额<?php echo ($user["user_money"]); ?>元</p>
+				</div>
+				<div class="radio"  index="2">
+					<img v-show="select_pay!=0" src="/Public/Wap/images/select1.png" alt="" @click="selectPay(0)"/>
+					<img v-show="select_pay==0" src="/Public/Wap/images/select2.png" alt=""/>
+				</div>
+			</div>
+			<div class="pay2">
+				<div class="pay2box">
+					<p class="payname f_size p_color5">微信支付</p>
+					<p class="paytext p_color4">微信支付</p>
+				</div>
+				<div class="radio" index="1">
+					<img v-show="select_pay!=1" src="/Public/Wap/images/select1.png" alt="" @click="selectPay(1)"/>
+					<img  v-show="select_pay==1" src="/Public/Wap/images/select2.png" alt=""/>
+				</div>
+			</div>
+		</div>
+		<div class="payBtn p_back1 p_color2" id="surePay">确定支付</div>
+		<form  action="/index.php?m=Wap&c=Order&a=payOrder" id="form" method="post">
+			<!-- value 订单号-->
+			<input type="hidden" name="order_id" value="<?php echo ($order["order_id"]); ?>" />
+			<input type="hidden" name="pay_type" id="pay_type" value="2" />
+			<!-- value 支付方式-->
+		</form>
+	</div>
+    <script src="/Public/Wap/js/jquery-2.0.2.js"></script>
+    <script type="text/javascript" src="/Public/Wap/js/vue.min.js"></script>
+    <script type="text/javascript" src="/Public/Wap/js/pay.js"></script>
+    <script src="/Public/Wap/js/jquery.form.js"></script>
+    <script  type="text/javascript" src="/Public/layer-v3.0.3/mobile/layer.js"></script>
+    <script>
+        $('.payBox').on('click','.radio',function(){
+              var id =  $(this).attr('index');
+              $('#pay_type').val(id);
+        })
+        $('#surePay').click(function () {
+            if($('#pay_type').val()==''){
+                layer.open({
+                    content: '请选择支付方式!'
+                    , skin: 'msg'
+                    , time: 2 //2秒后自动关闭
+                });
+                return false;
+            }
+            if($('#pay_type').val()==1){
+                callpay();
+//                $('#form').submit();
+//                return false;
+            }else{
+                $('#form').ajaxSubmit({
+                    type: "post",
+                    url : '/index.php?m=Wap&c=Order&a=payOrder',
+                    success: function (data) {
+                        if (data.success == 1) {
+                            // 此处可对 data 作相关处理
+                            layer.open({
+                                content: '购买成功!'
+                                , skin: 'msg'
+                                , time: 2 //2秒后自动关闭
+                            });
+                            setTimeout('window.location.href = "<?php echo U('Index/Success');?>&id=<?php echo ($order["order_id"]); ?>";',1000);
+                        }else if(data.success == -1){
+                            layer.open({
+                                content: '余额不足!'
+                                , skin: 'msg'
+                                , time: 2 //2秒后自动关闭
+                            });
+                        }else if(data.success == -2){
+                            layer.open({
+                                content: '小助手数量不足!'
+                                , skin: 'msg'
+                                , time: 2 //2秒后自动关闭
+                            });
+                        }else if(data.success == -3){
+                            layer.open({
+                                content: '验证码与现在直播中的验证码重复!'
+                                , skin: 'msg'
+                                , time: 2 //2秒后自动关闭
+                            });
+                        }
+                    }
+                });
+                return false;
+            }
+        })
+    </script>
+</body>
+</html>
